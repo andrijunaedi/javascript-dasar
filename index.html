@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Kalkulator Sederhana</title>
+  </head>
+  <body>
+    <main class="flex justify-center items-center h-screen text-white">
+      <div class="w-1/2 py-5 rounded-md" style="background-color: #080c35">
+        <div id="hasil" class="mx-3 text-right">0</div>
+        <div class="grid grid-cols-4 gap-2 text-xs mt-3 px-3">
+          <button
+            class="py-2 operator px-2 rounded-md col-span-2 flex justify-center items-center hover:text-red-600"
+            style="background-color: #0f1661"
+            value="allclear"
+          >
+            AC
+          </button>
+          <button
+            class="py-2 operator px-3 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="delete"
+          >
+            DEL
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="/"
+          >
+            /
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="7"
+          >
+            7
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="8"
+          >
+            8
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="9"
+          >
+            9
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="*"
+          >
+            *
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="6"
+          >
+            6
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="5"
+          >
+            5
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="4"
+          >
+            4
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="-"
+          >
+            -
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="1"
+          >
+            1
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="2"
+          >
+            2
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="3"
+          >
+            3
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="+"
+          >
+            +
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="0"
+          >
+            0
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="."
+          >
+            .
+          </button>
+          <button
+            class="py-2 operator px-2 rounded-md col-span-2 flex justify-center items-center"
+            style="background-color: #0f1661"
+            value="="
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./scripts/kalkulator.js"></script>
+  </body>
+</html>
