@@ -1,3 +1,11 @@
+/**
+    Created : Andri Junaedi <ig @andri_junaedi>
+    
+    D3 Sistem Informasi
+    Telkom University
+    Bandung, April 2022
+*/
+
 const operators = document.querySelectorAll('.operator');
 const hasil = document.querySelector('#hasil');
 
